@@ -22,7 +22,71 @@ header h2 {
     margin: 0;
 }
 
-h1 {
+/* navigation */
+
+nav {
+    background-color: pink;
+}
+
+nav ul {
+    margin: 0px; padding: 0px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li.active { 
+    background-color: blue;
+}
+
+nav a {
+    display: block;
+    padding: .8rem 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
     color: red;
-    
+}
+
+/* main */
+main {
+    padding: 1rem 2%;
+    display: block;
+}
+
+main h1 {
+    color: purple;
+}
+
+main figure img {
+    width:100%;
+}
+
+main figure {
+    width: 100%;
+    margin: 0;
+}
+
+main figcaption {
+    text-align: center;
+    font-size: .7rem;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 2%;
+    background-color: red;
 }
