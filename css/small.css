@@ -71,11 +71,13 @@ nav a:hover {
 main {
     background-color: rgb(238, 237, 237);
     padding: 1rem 2%;
-    display: block;
 }
 
 main h1 {
     color: #6B4909;
+    margin: 0px;
+    margin-bottom: 1rem;
+
 }
 
 main figure img {
