@@ -1,5 +1,17 @@
 @media only screen and (min-width: 560px) {
 
+    header h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+    
+    header h2 {
+        font-weight: 400;
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+
 nav li {
     float: left;
     width: 25%;
@@ -9,13 +21,14 @@ main figure {
     float: right;
     width: 48%;
     margin-left: 2%;
-    padding-bottom: .5rem;
+   
+    margin-bottom: 25px;
 }
 
 div.news {
     clear: both;
     column-count: 2;
-    column-rule: 1px solid red;
+    column-rule: 0px solid red;
 }
 
 

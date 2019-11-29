@@ -1,5 +1,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+
 /* body */
 
 body {
@@ -10,22 +12,27 @@ body {
 
 /* header */
 header {
-    background-color: red;
+    background: linear-gradient(to top, rgb(212, 151, 36) , rgb(75, 49, 2) 100%);
     padding: 1rem 2%;
+    color: white;
 }
 
 header h1 {
+    font-size: 1.9rem;
     margin: 0;
 }
 
 header h2 {
+    font-weight: 400;
+    font-size: 1.1rem;
     margin: 0;
 }
 
 /* navigation */
 
 nav {
-    background-color: pink;
+    margin-bottom: 0px;
+    background-color: #002F6B
 }
 
 nav ul {
@@ -37,10 +44,12 @@ nav li {
 }
 
 nav li.active { 
-    background-color: blue;
+    background-color: #1D61B8;
+    
 }
 
 nav a {
+    font-size: 1.5rem;
     display: block;
     padding: .8rem 0;
     color: white;
@@ -48,19 +57,25 @@ nav a {
     text-decoration: none;
 }
 
+nav a.active {
+    color: #FFBD42;
+    font-weight: 700;
+}
+
 nav a:hover {
     background-color: black;
-    color: red;
+    color: #FFBD42;
 }
 
 /* main */
 main {
+    background-color: rgb(238, 237, 237);
     padding: 1rem 2%;
     display: block;
 }
 
 main h1 {
-    color: purple;
+    color: #6B4909;
 }
 
 main figure img {
@@ -68,8 +83,10 @@ main figure img {
 }
 
 main figure {
+    border: 2px solid #002F6B;
     width: 100%;
     margin: 0;
+    
 }
 
 main figcaption {
@@ -77,6 +94,12 @@ main figcaption {
     font-size: .7rem;
 }
 
+main figcaption {
+    margin: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #002F6B;
+}
 
 .clearfix:after {
     content: "";
@@ -88,5 +111,6 @@ main figcaption {
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: red;
+    background-color: rgb(75, 49, 2);
+    color: white;
 }
